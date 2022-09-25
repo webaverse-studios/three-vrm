@@ -262,8 +262,6 @@ void postCorrection() {
   #include <fog_fragment>
   #include <premultiplied_alpha_fragment>
   #include <dithering_fragment>
-
-  gl_FragColor = sRGBToLinear(gl_FragColor);
 }
 
 // == main procedure ===========================================================

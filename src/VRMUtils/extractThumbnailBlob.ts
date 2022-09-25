@@ -5,7 +5,7 @@ const _v2A = new THREE.Vector2();
 
 const _camera = new THREE.OrthographicCamera(-1, 1, -1, 1, -1, 1);
 const _material = new THREE.MeshBasicMaterial({ color: 0xffffff, side: THREE.DoubleSide });
-const _plane = new THREE.Mesh(new THREE.PlaneBufferGeometry(2, 2), _material);
+const _plane = new THREE.Mesh(new THREE.PlaneGeometry(2, 2), _material);
 const _scene = new THREE.Scene();
 _scene.add(_plane);
 
