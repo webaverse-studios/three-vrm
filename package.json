@@ -61,6 +61,6 @@
   },
   "peerDependencies": {
     "@types/three": "^0.143.0",
-    "three": "webaverse-studios/three#master"
+    "three": "webaverse/three#r143"
   }
 }
